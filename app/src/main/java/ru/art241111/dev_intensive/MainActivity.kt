@@ -54,6 +54,7 @@ lateinit var benderObj: Bender
         }
     }
 
+
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putString("STATUS", benderObj.status.name)
